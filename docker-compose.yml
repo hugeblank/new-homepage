@@ -1,8 +1,8 @@
 services:
-  jebsite:
+  homepage:
     build: .
-    # Restart the container when the host machine is rebooted
-    # restart: unless-stopped
+    pull_policy: build
+    restart: unless-stopped
     # Include some environment variables
     # env_file:
     #   - .env
