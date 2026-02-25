@@ -151,7 +151,7 @@ export default function Home() {
         <Project
           title="Stubtool"
           src="images/text-x-script.svg"
-          href="https://grayhaze.live/"
+          href="https://github.com/hugeblank/stubtool"
         >
           <p>
             Bootstrap script for{" "}
@@ -181,7 +181,7 @@ export default function Home() {
         <Project
           title="WhiteBreeze"
           src="https://blog.hugeblank.dev/favicon.png"
-          href="github.com/hugeblank/whitebreeze"
+          href="https://github.com/hugeblank/whitebreeze"
         >
           <p>
             A custom frontend for{" "}
