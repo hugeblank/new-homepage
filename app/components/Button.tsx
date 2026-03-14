@@ -27,8 +27,8 @@ export default function Button({
     <a href={`https://${site}`}>
       <img
         src={`images/${site}.${ext}`}
-        alt={`${site} badge`}
-        title={`${site} badge`}
+        alt={`${site} button`}
+        title={`${site} button`}
         className="ml-2"
       />
     </a>

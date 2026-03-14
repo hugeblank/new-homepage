@@ -87,8 +87,7 @@ export default function Home() {
         most of my time programming in Java, but got my degree using other
         languages like C/C++, Python, and frameworks like Flutter and Django.
         Recently I&apos;ve been dipping my toe into web development via
-        typescript, and most recently with Svelte. I&apos;d like to get a job so
-        if you&apos;re hiring shoot me an email or something.
+        TypeScript, and most recently with React.
       </p>
       <img
         src="images/bug.png"
@@ -115,6 +114,23 @@ export default function Home() {
         </a>{" "}
         19 memories. I will definitely be making a blog post about that so
         please stay tuned.
+      </p>
+      <h2 className="pt-4 pb-2">I have a blog</h2>
+      <p>
+        <a
+          href="https://blog.hugeblank.dev/"
+          className="text-cyan-600 hover:underline"
+        >
+          It is here
+        </a>
+        . I recommend{" "}
+        <a
+          href="https://blog.hugeblank.dev/3mgzae7yxt22k"
+          className="text-cyan-600 hover:underline"
+        >
+          this entry
+        </a>
+        .
       </p>
       <h2 className="pt-4 pb-2">I have projects</h2>
       <div className="auto-cols grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-2">
@@ -239,8 +255,6 @@ export default function Home() {
           alt="Bluesky"
           username="@hugeblank.dev"
         />
-        <Social src="signal.png" alt="Signal" username="@hugeblank.01" />
-        <Social src="discord.png" alt="Discord" username="@hugeblank" />
         <Social
           href="https://steamcommunity.com/id/hugeblank/"
           src="steam.ico"
@@ -253,6 +267,8 @@ export default function Home() {
           alt="Email"
           username="hugeblank@gmail.com"
         />
+        <Social src="signal.png" alt="Signal" username="@hugeblank.01" />
+        <Social src="discord.png" alt="Discord" username="@hugeblank" />
       </div>
       <h2 className="pt-4 pb-2">The buttons</h2>
       <div className="mr-auto ml-auto grid grid-cols-3 gap-y-2 pt-2">
@@ -275,77 +291,6 @@ export default function Home() {
         <Button site="archlinux.org" />
         {/* Other buttons go above */}
       </div>
-      <h2 className="pt-4 pb-2">Bagel lore</h2>
-      <h3 className="pt-2">The name</h3>
-      <p>
-        The name &quot;hugeblank&quot; dates back to 2010 when I was in my local
-        library, signing up for Roblox. I had a few criteria for the name. I
-        didn&apos;t want it to have any numbers, and I wanted it to be comprised
-        of real words. That made things difficult enough, but to top it all off
-        Roblox was already really popular back then, despite it being entirely
-        different from what it is now. The only saving grace for me was that
-        below the username box, if you put in a username that already existed,
-        it would provide a few alternatives that weren&apos;t already taken. I
-        spent what felt like an eternity typing combinations of words in with no
-        luck whatsoever. It got to the point that I gave up and just slammed the
-        keyboard and got a bunch of gibberish which was, hilariously, taken. But
-        whatever keysmash I threw in opened the username suggestion area&apos;s
-        third eye. Up until now it had just been putting numbers onto what I
-        wrote in, but this time, it came close to the answer. hugeblank0. I took
-        that username, put it in the input box, and then removed the 0 and
-        prayed. It worked, I signed up, and the rest is history.
-      </p>
-      <h3 className="pt-2">The bagel</h3>
-      <p>
-        The bagel motif was a later occurence in the hugeblank lore. It happened
-        due to a user in a Minecraft server I was playing on back in 2014. They
-        were messing with anagrams of other online players usernames and
-        eventually got to me. They landed on &quot;bagel hunk&quot; which I
-        thought was funny. At that time I didn&apos;t exactly have a profile
-        icon I was set on using, so I went and googled a photo of a bagel, and
-        found this one:
-      </p>
-      <a className="mr-auto ml-auto" href="bagel.png">
-        <img
-          className="w-64"
-          src="bagel.png"
-          alt="Watercolor Rendering of a plain bagel by Judy Unger"
-          title="(click to open) Watercolor Rendering of a plain bagel by Judy Unger"
-        />
-      </a>
-      <p>
-        While working on this website I decided to finally see if I could find
-        the source, and with a reverse image search I was able to. I had
-        initially thought that the image was lost media, so was very happy to
-        have been able to track it down. Not only that, but the bagel
-        wasn&apos;t a photo at all, it was an illustration, done by a woman
-        named Judy Unger. Judy was a professional illustrator who had done
-        commission work for food companies like Del Monte, Kirkland, Little
-        Debbie, and Meow Mix cat food. I have an appreciation for artists and
-        firmly believe that their work should be properly attributed and
-        compensated if necessary, so I reached out to her about the story of how
-        I ended up with the bagel motif and how her illustration ended up being
-        my profile picture for the last decade. I continued by asking her for a
-        way to obtain a license to use the image, in hopes that she might
-        respond so I could rest easy knowing I&apos;m using it fairly. To my
-        delight she replied with a similar gratitude for me even bothering to
-        ask about licensing, and gave me a perpetual commercial use license at a
-        discount! The image you see above is the highest resolution publicly
-        available rendering of her watercolor illustration of a plain bagel she
-        did for Lender&apos;s Manhattan in January of 2003. Please enjoy her
-        blog post&nbsp;
-        <a
-          className="text-cyan-600 hover:underline"
-          href="https://foodartist.wordpress.com/2011/02/23/41-i-had-a-hole-lox-of-fun-illustrating-bagels/"
-        >
-          found here
-        </a>
-        , where she talks about the process of the commission, making 15
-        different bagels, and how the director of the project actually prefered
-        her marker technique over the watercolor version for the plain bagel!
-        Her work is incredibly impressive and when I have the free time I will
-        be spending it reading through her blog and admiring the illustrations.
-      </p>
     </div>
   );
 }

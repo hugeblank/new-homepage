@@ -25,9 +25,13 @@ export default function Social({
     </div>
   );
 
-  return (
+  return href ? (
+    <div className="rounded-[1em] border border-solid border-gray-500 pt-1 pr-2 pb-1 pl-2 hover:border-cyan-600">
+      <a href={href}>{basic}</a>
+    </div>
+  ) : (
     <div className="rounded-[1em] border border-solid border-gray-500 pt-1 pr-2 pb-1 pl-2">
-      {href ? <a href={href}>{basic}</a> : basic}
+      <a href={href}>{basic}</a>
     </div>
   );
 }
